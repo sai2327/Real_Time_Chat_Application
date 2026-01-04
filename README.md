@@ -42,6 +42,7 @@ Socket.IO Server
 Connected Clients (Users)
 
 🧩 Architecture Layer Explanation
+
 1️⃣ Frontend Layer (React.js)
 
   Handles user interface and user interactions
