@@ -10,6 +10,16 @@ This project aims to build a **next-generation real-time communication platform*
 
 The application is structured to reflect **industry-grade system design**, making it suitable for real-world deployment and advanced portfolio demonstration.
 
+Team Members:
+
+Kondapalli Sai Teja
+
+Konda Lakshmi Mahith
+
+Konagalla Sravani
+
+K Jyotshna
+
 🎯 Project Focus: Initiation & Design
 
 This repository represents the **Project Initiation and System Design phase**, which includes:
