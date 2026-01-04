@@ -18,7 +18,7 @@ Konda Lakshmi Mahith
 
 Konagalla Sravani
 
-K Jyotshna
+Kondepudi Jyotshna
 
 🎯 Project Focus: Initiation & Design
 
