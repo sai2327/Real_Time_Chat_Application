@@ -34,7 +34,7 @@ This repository represents the **Project Initiation and System Design phase**, w
  User (Browser)
  
  
-    |
+     |
     
      v
 
