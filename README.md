@@ -86,6 +86,26 @@ Connected Clients (Users)
   
   Displays typing indicators, message status, and notifications
 
+  
+
+The Frontend layer plays a critical role in delivering a smooth, responsive, and real-time user experience. It acts as the primary interaction point between users and the system, ensuring usability, performance, and accessibility.
+
+🔹 Frontend Responsibilities
+
+Design and implement a responsive and intuitive user interface
+
+Manage application state (authentication, chats, messages, presence)
+
+Integrate REST APIs for data fetching and persistence
+
+Establish and maintain Socket.IO client connections
+
+Handle real-time UI updates without page refresh
+
+Ensure secure token handling and session management
+
+Optimize UI performance for scalability
+
 2️⃣ API Layer (Express.js)
   
   Exposes REST APIs for:
