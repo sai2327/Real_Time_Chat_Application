@@ -31,24 +31,44 @@ This repository represents the **Project Initiation and System Design phase**, w
 
 🏗️ System Architecture & Flow (MERN + Socket.IO)
  User (Browser)
-     |
+ 
+ 
+    |
+    
      v
+
 React.js Frontend
+
      |
+     
      |  REST APIs (HTTP / HTTPS)
+     
      v
+
 Node.js + Express.js Backend
+
      |
+     
      |  Database Operations
+     
      v
+
 MongoDB Database
+
      |
+     
      |  Real-Time Events
+     
      v
+
 Socket.IO Server
+
      |
+     
      |  WebSocket Connection
+     
      v
+
 Connected Clients (Users)
 
 🧩 Architecture Layer Explanation
