@@ -54,53 +54,87 @@ Connected Clients (Users)
 🧩 Architecture Layer Explanation
 
 1️⃣ Frontend Layer (React.js)
-
+  
   Handles user interface and user interactions
+  
   Manages authentication state and UI routing
+  
   Establishes Socket.IO client connection
+  
   Sends messages and receives real-time updates
+  
   Displays typing indicators, message status, and notifications
 
 2️⃣ API Layer (Express.js)
+  
   Exposes REST APIs for:
+  
   User registration and login
+  
   Fetching chat history
+  
   Group and user management
+  
   Validates requests using JWT middleware
+  
   Acts as a bridge between frontend and database
   
 3️⃣ Real-Time Communication Layer (Socket.IO)
+
   Maintains persistent WebSocket connections
+  
   Enables:
+  
   Instant message delivery
+  
   Typing indicators
+  
   Online/offline presence updates
+  
   Message status (sent, delivered, seen)
+  
   Broadcasts events to relevant users or groups
 
 4️⃣ Backend Business Logic (Node.js)
+
   Processes chat messages and group logic
+  
   Controls permissions (group admin, participants)
+  
   Ensures message delivery reliability
+
   Emits socket events after database operations
 
 5️⃣ Database Layer (MongoDB)
+
   Stores:
+
   User profiles and authentication data
+  
   Messages and chat history
+  
   Group metadata and participants
+  
   Optimized for fast read/write operations
+  
   Enables message search and pagination
 
 6️⃣ Notification Flow
+
   Real-time in-app notifications via Socket.IO
+  
   Browser notifications for new messages
+  
   Sync notifications across active devices
   
 🔐 Security Flow
+  
   User logs in → JWT token issued
+  
   Token attached to API requests
+  
   Backend verifies token before access
+  
   Socket connection authenticated using token
 
  🧩 Application Modules
